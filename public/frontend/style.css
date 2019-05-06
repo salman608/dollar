@@ -1,0 +1,137 @@
+*{
+  font-family: "Poppins",sans-serif;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+  padding: 30px 20px;
+color: #2f2a2a;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: .8rem;
+
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+  color: #400040;
+}
+.navbar{
+  background-color: #d9ccd9;
+}
+#login i{
+  font-weight: 600;
+  font-size: .8rem;
+}
+#login{
+  font-family: "Poppins",sans-serif;
+
+}
+
+#exchange{
+  border-radius: 25px;
+}
+
+#bbbb{
+  text-align: center;
+  margin: 5px auto;
+}
+.ex{
+  padding: 70px 0px;
+
+}
+
+ .footer-one #tiva-copyright{
+  background: #000;
+      padding-top: .208333333in;
+      padding-bottom: 15pt;
+
+}
+.footer-one #tiva-copyright a{
+  color: #909090;
+  font-size: 11px;
+      text-transform: uppercase;
+}
+
+.block-content ul li{
+  list-style: none;
+}
+.block-content ul li a{
+  color:#666;
+      font-weight: 400;
+}
+
+.block-content ul li a:hover{
+  color:black;
+}
+
+.block-content{
+    margin-left: -36px;
+}
+
+.title-block{
+      font-weight: 600;
+      margin-bottom: 1rem;
+      text-align: left;
+      text-transform: uppercase;
+      color: #222;
+
+      font-size: .145833333in;
+      line-height: 1.5;
+}
+.footer-one .inner-footer .footer-top {
+    padding-top: .833333333in;
+    font-size: .8125pc;
+    padding-bottom:.833333333in;
+}
+
+#star p{
+  padding: 0px 6px;
+  text-align: justify;
+}
+/* .payment-image img{
+  margin-left: -35px;
+} */
+
+/* contact page */
+
+#cont h3{
+  color:#400040;
+}
+#cont p{
+  color:black;
+  font-size: 15px;
+}
+
+
+/* footer */
+
+.block-1 p{
+  font-size: 14px;
+}
+
+.block-1 .content ul li{
+  list-style: none;
+}
+.block-1 .content ul li a{
+  color:#666;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.block-1 .content ul li a:hover{
+  color:black;
+}
+
+.block-1 .content{
+    margin-left: -36px;
+}
+
+.block-2 .content-contact p{
+  font-size: 14px;
+}
+
+.block-3 .btn-floating{
+  border-radius: 40px;
+}
+.block-1, .block-2, .block-3 h3{
+  color:#400040;
+}
