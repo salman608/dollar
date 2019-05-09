@@ -118,9 +118,9 @@
                        <i class="caret"></i>
                    </a>
                    <ul class="dropdown-menu">
-                       <li><a href="profile.html">My Profile</a></li>
-                       <li><a href="edit-profile.html">Edit Profile</a></li>
-                       <li><a href="settings.html">Settings</a></li>
+                       <li><a href="{{ route('admin.profile') }} ">My Profile</a></li>
+                       <li><a href="{{ route('profile.edit',['id' =>Auth::user()->id]) }}">Edit Profile</a></li>
+                       <li><a href="{{ route('admin.setting') }}">Settings</a></li>
                        <li>
 
 
@@ -199,7 +199,7 @@
 
 
                        <li>
-                           <a href="settings.html"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
+                           <a href="{{ route('admin.setting') }}"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
                        </li>
 
                    </ul>

@@ -7,90 +7,44 @@
 
 
 
+<div>
   <section class="page-home" style="background:#400040;">
-           <div class="container">
+            <div class="container">
 
-             <!-- delivery form -->
-             <div class="section policy-home col-lg-12 col-xs-12">
-               <div class="ex">
-               <div class="row">
-                 <div class="col-lg-9 col-md-9">
-
-                   <div class="card">
-
-                     <div class="card-body">
-                       <h3 class="card-title" style="text-align:center;color:#400040;">Exchange Your Money</h3>
-
-                       <form>
-                         <div class="form-row">
-                           <div class="form-group col-md-6">
-
-                             <span class="label label-default" style="font-size:30px;">Send</span>
-                             <select class="custom-select" id="inputEmail4">
-                               <!-- <option selected>Skrill.</option> -->
-                               <option value="1">Skrill.</option>
-                               <option value="2">Neteller.</option>
-                               <option value="3">Payoneer.</option>
-                               <option value="4">Perfect Money.</option>
-                               <option value="5">RocketPersonal.</option>
-                               <option value="6">Bkash Personal.</option>
-                               <option value="7">Bkash Agent.</option>
-                             </select>
+    
+                 <!-- delivery form -->
+                      <div class="section policy-home col-lg-12 col-xs-12">
+                             <div class="ex">
+                                  
+                               
 
 
-                           </div>
+                               <div class="row">
+                                  <div class="col-lg-9 col-md-9">
+                                      <div id="app">
+                                          <app-home></app-home>
+                                      </div>
+                                    </div>
 
+                                   
+                                   <div class="col-lg-3 col-md-3" >
+                                        <div class="card" style=" height:19rem">
 
-                           <div class="form-group col-md-6">
-                             <span class="label label-default" style="font-size:30px;">Receve</span>
-                             <select class="custom-select" id="inputEmail4">
+                                          <div class="card-body">
+                                            <h5 class="card-title"> Place Your Add  Here</h5>
 
-                               <option value="1">Bkash Personal.</option>
-                               <option value="2">Skrill.</option>
-                               <option value="3">Payoneer.</option>
-                               <option value="4">Bkash Personal.</option>
-                               <option value="5">Bkash Agent.</option>
-                               <option value="6">Perfect Money.</option>
-                               <option value="7">RocketPersonal.</option>
-
-                             </select>
-
-
-                           </div>
-                         </div>
-                         <div class="row">
-                       <div class="col-md-6 mt-2 mb-4">
-                         <input type="number" class="form-control">
-                       </div>
-                       <div class="col-md-6 mt-2 mb-4">
-                         <input type="number" class="form-control">
-                       </div>
-
-                    <button type="button" class="btn btn-secondary" id="bbbb">Exchange</button>
-
-                       </form>
-                     </div>
-                     </div>
-                   </div>
-                 </div>
-
-
-                 <div class="col-lg-3 col-md-3" >
-                         <div class="card" style=" height:19rem">
-
-                           <div class="card-body">
-                             <h5 class="card-title"> Place Your Add  Here</h5>
-
-                             <a href="#" class="btn btn-primary">Contact Us</a>
-                           </div>
-                         </div>
-                       </div>
-                     </div>
-                     </div>
-                   </div>
-                 </div>
-             </div>
-          </section>
+                                            <a href="#" class="btn btn-primary">Contact Us</a>
+                                          </div>
+                                        </div>
+                                   </div>
+                               </div>
+                                                    
+                          </div>
+                    </div>
+                  </div>
+            </div>
+  </section>
+</div>
 
 <!-- Testimonial -->
 

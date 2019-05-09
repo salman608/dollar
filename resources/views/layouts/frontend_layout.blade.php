@@ -14,7 +14,10 @@
   <link href="{{asset('frontend/css/mdb.min.css')}}" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="{{asset('frontend/css/style.css')}}" rel="stylesheet">
+  <link rel="stylesheet" href="{{asset('css/app.css')}}">
   <link href="{{asset('frontend/style.css')}}" rel="stylesheet">
+
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 
 <style type="text/css">
@@ -239,12 +242,8 @@
   <script type="text/javascript" src="{{asset('frontend/js/bootstrap.min.js')}}"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="{{asset('frontend/js/mdb.min.js')}}"></script>
-  <script>
-    $(document).ready(function () {
-$('#dtBasicExample').DataTable();
-$('.dataTables_length').addClass('bs-select');
-});
-  </script>
+  <script src="{{asset('js/app.js')}}"></script>
+ 
 </body>
 
 </html>

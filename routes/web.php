@@ -25,28 +25,33 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::GET('admin/home','AdminController@index')->name('admin.home');
 
-
 Route::GET('admin','Admin\LoginController@showLoginForm')->name('admin.login');
 
 Route::GET('admin','Admin\LoginController@showLoginForm')->name('admin.login');
-
 
 Route::POST('admin','Admin\LoginController@login');
 
 Route::POST('admin/logout','Admin\LoginController@logout')->name('admin.logout');
 
-
-
-
-
-
 Route::POST('admin-password/email','Admin\ForgotPasswordController@sendResetLinkEmail')->name('admin.password.email');
 Route::GET('admin-password/reset','Admin\ForgotPasswordController@showLinkRequestForm')->name('admin.password.request');
 Route::POST('admin-password/reset','Admin\ResetPasswordController@reset');
 Route::GET('admin-password/reset/{token}','Admin\ResetPasswordController@showResetForm')->name('admin.password.reset');
-
-
 //->> End Multi Auth Route
+
+
+//->> Start Admin Profile
+
+Route::resource('/admin/profile', 'AdminController');
+Route::GET('admin/profile','AdminController@profile')->name('admin.profile');
+Route::GET('admin/setting','AdminController@setting')->name('admin.setting');
+
+//->> End Admin Profile
+
+
+
+
+
 
 //->> Start Verified Email
 Route::GET('/verifyEmailFirst','Auth\RegisterController@verifyEmailFirst')->name('verifyEmailFirst');
